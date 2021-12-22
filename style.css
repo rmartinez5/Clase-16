@@ -202,6 +202,10 @@ video{
     grid-area: objetivo;
 }
 
+.footer-text{
+    text-align: center;
+}
+
 .logo-foot{
     grid-area: logo;
 }
@@ -221,6 +225,10 @@ video{
     /* flex-wrap: nowrap; */
 }
 
+.container{
+    margin-top: 50px;
+}
+
 .caja-links{
     display: flex;
     align-items: flex-start;
@@ -236,6 +244,10 @@ h4{
     text-shadow: 1px 4px 10px rgb(92, 88, 88);
     text-align: left;
     text-decoration: underline;
+}
+
+.video{
+    size:auto;
 }
 
 .p-foot{
@@ -272,6 +284,14 @@ h4{
     size: 100%;
 }
 
+.servicios{
+    text-align: center;
+}
+
+.img-fluid{
+    text-align: center;
+}
+
 .border-footer{
     background-image: linear-gradient(to bottom, #E26A2C, #FDA65D);
     border: 1px solid black;
@@ -296,6 +316,10 @@ h4{
     background-image: linear-gradient(to top, #E26A2C, #FDA65D);
 }
 
+h5{
+    text-align: center;
+    font-size: medium;
+}
 /* --------------------------NOSOTROS-------------------- */
 
 /* estructura nosotros:
@@ -364,6 +388,23 @@ h4{
 
 .parrafo h3{
     font-size: 40px;
+}
+
+
+.justify-content-end{
+    padding-right: 100px;
+
+}
+
+.nav-item{
+    background-color: #E26A2C;
+    border-radius: 10%;
+    background-image: linear-gradient(to top, #E26A2C, #FDA65D);
+    margin: 1px;
+}
+
+.nav-link{
+    color: white;    
 }
 
 
